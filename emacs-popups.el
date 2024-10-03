@@ -19,6 +19,7 @@
 ;;
 ;;; Code:
 
+;;;###autoload
 
 (defun emacs-popups-popup-frame-delete (&rest _)
   "Kill selected frame if it has parameter `popup-frame'."
